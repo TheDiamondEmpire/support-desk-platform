@@ -1,0 +1,56 @@
+{
+  "base_seed": 5000,
+  "business_days": 8,
+  "censor_fraction": 0.8,
+  "cpu_load_pct_at_start": 100.0,
+  "cpu_load_samples": [
+    56.0,
+    93.0,
+    63.0,
+    100.0,
+    87.0,
+    73.0,
+    82.0,
+    65.0,
+    60.0,
+    100.0,
+    87.0,
+    100.0,
+    100.0,
+    93.0
+  ],
+  "experiment": "E2",
+  "implementation": "CPython",
+  "logical_cpus": 8,
+  "machine": "AMD64",
+  "n_agents": 6,
+  "platform": "Windows-11-10.0.26200-SP0",
+  "policies": [
+    "round_robin",
+    "least_loaded",
+    "skills_weighted"
+  ],
+  "processor": "AMD64 Family 25 Model 1 Stepping 1, AuthenticAMD",
+  "product_version": "0.1.0",
+  "python": "3.12.13",
+  "runs": 144,
+  "scenarios": {
+    "heavy": {
+      "skill_penalty": 1.8,
+      "tickets_per_business_day": 70.0
+    },
+    "moderate": {
+      "skill_penalty": 1.8,
+      "tickets_per_business_day": 50.0
+    },
+    "moderate_no_skill_penalty": {
+      "skill_penalty": 1.0,
+      "tickets_per_business_day": 50.0
+    }
+  },
+  "seeds": 16,
+  "started_utc": "2026-11-23T21:38:23Z",
+  "tz_source_new_york": "fallback",
+  "wall_s": 1290.6,
+  "zoneinfo_available": false
+}

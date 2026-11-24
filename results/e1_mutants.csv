@@ -1,0 +1,5 @@
+mutant,cases,detected,detected_near_dst,detection_rate
+ignores_dst,300,80,35,0.2667
+ignores_holidays,300,45,20,0.15
+window_end_inclusive,300,99,44,0.33
+ignores_pauses,300,38,17,0.1267

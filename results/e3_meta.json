@@ -1,0 +1,50 @@
+{
+  "base_seed": 9000,
+  "cpu_load_pct_at_start": 71.0,
+  "default_threshold_in_product": 0.6,
+  "experiment": "E3",
+  "implementation": "CPython",
+  "logical_cpus": 8,
+  "machine": "AMD64",
+  "methods": [
+    "jaccard",
+    "cosine",
+    "cosine_bigram"
+  ],
+  "pairs_per_class": 300,
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "AMD64 Family 25 Model 1 Stepping 1, AuthenticAMD",
+  "product_version": "0.1.0",
+  "python": "3.12.13",
+  "reps": 10,
+  "rows": 1740,
+  "started_utc": "2026-11-23T22:01:43Z",
+  "strengths": [
+    0.15,
+    0.4,
+    0.7
+  ],
+  "thresholds": [
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6,
+    0.65,
+    0.7,
+    0.75,
+    0.8,
+    0.85,
+    0.9,
+    0.95
+  ],
+  "tz_source_new_york": "fallback",
+  "zoneinfo_available": false
+}
